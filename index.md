@@ -1,7 +1,7 @@
 ---
 title       : "Stock Chart App"
 subtitle    : 
-author      : 
+author      : "Dmitri Slepov"
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -13,16 +13,26 @@ knit        : slidify::knit2slides
 
 ## About
 
-1
+This is simple app that plot stock charts.
+#### You can: 
+- choose a company symbol, e.g. MSFT, GOOG, FB
+- choose a date range
+- choose a chart type
+- add a moving average 
 
 --- 
 
 ## Quantmod
 
+This app uses the quantmod package.
 
 ```r
 library(quantmod)
 getSymbols("FB", from="2014-06-01")
+```
+
+```
+## Warning: downloaded length 3943 != reported length 200
 ```
 
 ```
@@ -39,12 +49,14 @@ last(FB)
 ```
 
 ---
-## Data
+## Example
 
-1
+
 
 ---
 ## Links
 
-2
+- Try it on shinyapps.io ([stockchart] (http://slepov.shinyapps.io/stockchart/))
+- Source code is available on  the [GitHub] (https://github.com/Slepov/courseproject_DDP)
+
 

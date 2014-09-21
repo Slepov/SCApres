@@ -4,7 +4,7 @@
   <title>Stock Chart App</title>
   <meta charset="utf-8">
   <meta name="description" content="Stock Chart App">
-  <meta name="author" content="">
+  <meta name="author" content="Dmitri Slepov">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -34,7 +34,7 @@
   <hgroup class="auto-fadein">
     <h1>Stock Chart App</h1>
     <h2></h2>
-    <p><br/></p>
+    <p>Dmitri Slepov<br/></p>
   </hgroup>
   <article></article>  
 </slide>
@@ -46,7 +46,16 @@
     <h2>About</h2>
   </hgroup>
   <article data-timings="">
-    <p>1</p>
+    <p>This is simple app that plot stock charts.</p>
+
+<h4>You can:</h4>
+
+<ul>
+<li>choose a company symbol, e.g. MSFT, GOOG, FB</li>
+<li>choose a date range</li>
+<li>choose a chart type</li>
+<li>add a moving average </li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -57,8 +66,13 @@
     <h2>Quantmod</h2>
   </hgroup>
   <article data-timings="">
-    <pre><code class="r">library(quantmod)
+    <p>This app uses the quantmod package.</p>
+
+<pre><code class="r">library(quantmod)
 getSymbols(&quot;FB&quot;, from=&quot;2014-06-01&quot;)
+</code></pre>
+
+<pre><code>## Warning: downloaded length 3943 != reported length 200
 </code></pre>
 
 <pre><code>## [1] &quot;FB&quot;
@@ -77,11 +91,10 @@ getSymbols(&quot;FB&quot;, from=&quot;2014-06-01&quot;)
 
 <slide class="" id="slide-3" style="background:;">
   <hgroup>
-    <h2>Data</h2>
+    <h2>Example</h2>
   </hgroup>
   <article data-timings="">
-    <p>1</p>
-
+    <img src="assets/img/example.png">
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -91,7 +104,10 @@ getSymbols(&quot;FB&quot;, from=&quot;2014-06-01&quot;)
     <h2>Links</h2>
   </hgroup>
   <article data-timings="">
-    <p>2</p>
+    <ul>
+<li>Try it on shinyapps.io (<a href="http://slepov.shinyapps.io/stockchart/">stockchart</a>)</li>
+<li>Source code is available on  the <a href="https://github.com/Slepov/courseproject_DDP">GitHub</a></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -115,7 +131,7 @@ getSymbols(&quot;FB&quot;, from=&quot;2014-06-01&quot;)
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Data'>
+        data-slide=3 title='Example'>
          3
       </a>
     </li>
