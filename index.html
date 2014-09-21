@@ -61,7 +61,20 @@
     <h2>Slide 2</h2>
   </hgroup>
   <article data-timings="">
-    
+    <pre><code class="r">library(quantmod)
+getSymbols(&quot;FB&quot;, from=&quot;2014-06-01&quot;)
+</code></pre>
+
+<pre><code>## [1] &quot;FB&quot;
+</code></pre>
+
+<pre><code class="r">last(FB)
+</code></pre>
+
+<pre><code>##            FB.Open FB.High FB.Low FB.Close FB.Volume FB.Adjusted
+## 2014-09-19    77.4    78.3  76.44    77.91  76638600       77.91
+</code></pre>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
