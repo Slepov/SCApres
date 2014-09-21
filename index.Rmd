@@ -1,7 +1,7 @@
 ---
 title       : "Stock Chart App"
 subtitle    : 
-author      : Dmitri Slepov
+author      : 
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -13,7 +13,7 @@ knit        : slidify::knit2slides
 
 ## About
 
-
+1
 
 --- 
 
@@ -28,7 +28,10 @@ last(FB)
 ---
 ## Data
 
+1
+
 ---
 ## Links
 
+2
 

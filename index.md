@@ -11,15 +11,13 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## About
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+1
 
---- .class #id 
+--- 
 
-## Slide 2
+## Quantmod
 
 
 ```r
@@ -40,5 +38,13 @@ last(FB)
 ## 2014-09-19    77.4    78.3  76.44    77.91  76638600       77.91
 ```
 
+---
+## Data
 
+1
+
+---
+## Links
+
+2
 
